@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.bgrojo {
+  background-color: #D92938;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  text-align: right;
+  
+}
+
+.links li {
+  list-style: none;
+}
+
+.custom-btn {
+  background-color: #8C1F28;
+  padding-inline: 11px;
+  border-radius: 8px;
+}
+
+.header_link {
+  border-bottom: 0;
+  transition: .1s cubic-bezier(.33,.66,.66,1)
+}
+
+.header_link:hover {
+  background: #bebebe
+  
+
+}
+
+.link_animado:hover {
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#banner{
+  background-image: url('../img/img.webp');
+  background-size: cover;
+  height: 600px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+#buscador{
+  background-color: #0D0D0D;
+  color: white;
+  height: 500px;
+}
+
+#bg-custom{
+  background-color: #0D0D0D;
+  color: white;
+}
+
+
+#footer{
+  background-color: #D92938;
+  height: 70px;
+  padding: 2rem;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem  1rem;
+}
+
+#footer li {
+  list-style: none;
+}
+
+#footer a:hover {
+  color: gray;
+  text-decoration: underline gray;
+
+}
+
+.card-custom{
+  height: 400px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
